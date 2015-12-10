@@ -4,35 +4,61 @@ import re
 
 class AdventDayNine(AdventDay):
     cities = {}
+    final_paths = {}
 
     def answer_part1(self):
+        self.cities = {}
+        self.final_paths = {}
         self.parse_all_paths()
-        all_distances = self.get_all_possible_distances()
+        self.get_all_possible_distances()
+
+        min_distance = 0
+        for one_path, one_distance in self.final_paths.items():
+            if min_distance == 0 or min_distance > one_distance:
+                min_distance = one_distance
+
+        return min_distance
+
+    def answer_part2(self):
+        self.cities = {}
+        self.final_paths = {}
+        self.parse_all_paths()
+        self.get_all_possible_distances()
+
+        max_distance = 0
+        for one_path, one_distance in self.final_paths.items():
+            if max_distance < one_distance:
+                max_distance = one_distance
+
+        return max_distance
 
     def get_all_possible_distances(self):
-        final_paths = {}
         for one_city, child_cities in dict(self.cities).items():
-            final = self.build_all_possible_paths(one_city, child_cities, [], 0)
-            final_paths
+            self.build_all_possible_paths(one_city, child_cities, [], 0, 0)
 
-        return final_paths
+    def build_all_possible_paths(self,
+                                 current_city_name,
+                                 child_cities,
+                                 previous_cities,
+                                 total_distance,
+                                 previous_distance):
+        if current_city_name in previous_cities:
+            if len(previous_cities) == len(self.cities.items()):
+                self.final_paths[''.join(previous_cities)] = total_distance
+            return
 
-    def build_all_possible_paths(self, current_city_name, child_cities, previous_cities, distance):
         previous = list(previous_cities)
         previous.append(current_city_name)
+        total_distance += previous_distance
 
-        final_paths = {}
-
-        for one_city, one_city_distance in dict(child_cities).items():
-            # Add check for if city is already in previous_cities
-            if one_city in previous_cities:
-                final_paths[''.join(previous_cities)] = distance
-
-            new_distance = distance + one_city_distance
-            final_path, final_distance = self.build_all_possible_paths(one_city, self.cities[one_city], previous, new_distance)
-            final_paths[final_path] = final_distance
-
-        return final_paths
+        for one_city_name, one_city_distance in child_cities.items():
+            self.build_all_possible_paths(
+                one_city_name,
+                self.cities[one_city_name],
+                previous,
+                total_distance,
+                one_city_distance
+            )
 
     def parse_all_paths(self):
         for one_path in self.read_data():
@@ -51,3 +77,8 @@ class AdventDayNine(AdventDay):
             self.cities[city_name1] = {city_name2: distance}
         elif city_name2 not in self.cities[city_name1]:
             self.cities[city_name1][city_name2] = distance
+
+
+adventDay9 = AdventDayNine(9)
+print("Day 9 Part 1: {answer}".format(answer=adventDay9.answer_part1()))
+print("Day 9 Part 2: {answer}".format(answer=adventDay9.answer_part2()))

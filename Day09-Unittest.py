@@ -51,10 +51,33 @@ class Day09UnitTests(TestCase):
         self._sut.read_data = lambda: self.sample_paths
         self._sut.parse_all_paths()
 
-        result = self._sut.get_all_possible_distances()
+        self._sut.get_all_possible_distances()
 
-        self.assertEquals(6, len(result))
+        self.assertEquals(6, len(self._sut.final_paths.items()))
 
+    def test_Mesaure_distances_properly(self):
+        actual_values = {
+            'DublinLondonBelfast': 982,
+            'LondonDublinBelfast': 605,
+            'LondonBelfastDublin': 659,
+            'DublinBelfastLondon': 659,
+            'BelfastDublinLondon': 605,
+            'BelfastLondonDublin': 982
+        }
+        self._sut.read_data = lambda: self.sample_paths
+        self._sut.parse_all_paths()
+
+        self._sut.get_all_possible_distances()
+
+        for one_value_name, one_value in actual_values.items():
+            self.assertEqual(one_value, self._sut.final_paths[one_value_name])
+
+    def test_Gets_correct_answer(self):
+        self._sut.read_data = lambda: self.sample_paths
+
+        result = self._sut.answer_part1()
+
+        self.assertEquals(605, result)
 
 testSuite = TestSuite()
 testSuite.addTest(makeSuite(Day09UnitTests))
