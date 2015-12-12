@@ -24,15 +24,27 @@ class Day11UnitTests(TestCase):
 
         for one_string in invalid_strings:
             self.assertFalse(self._sut.is_valid(one_string))
+
     def test_IncrementWorksProperly(self):
         test_cases = {
             'a': 'b',
             'az': 'ba',
-            'azzz': 'baaa'
+            'azzz': 'baaa',
+            'zzzzzzzz': 'aaaaaaaa'
         }
 
         for one_string, one_result in test_cases.items():
             result = self._sut.increment_string(one_string)
+            self.assertEqual(one_result, result)
+
+    def test_get_next_valid_string_works(self):
+        test_cases = {
+            'abcdefgh': 'abcdffaa',
+            # 'ghijklmn': 'ghjaabcc'
+        }
+
+        for one_string, one_result in test_cases.items():
+            result = self._sut.get_next_valid_string(one_string)
             self.assertEqual(one_result, result)
 
 testSuite = TestSuite()

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a4acd0-74bf-4766-b941-ee32fca664e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11-Unittest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day11-Unittest.py" afterPath="$PROJECT_DIR$/Day11-Unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day11.py" afterPath="$PROJECT_DIR$/Day11.py" />
     </list>
     <ignored path="AdventCalendarOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="Day11.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9303279">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3831967">
+              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/Day11-Unittest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -188,24 +188,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly">
-    <configuration default="false" name="Day09" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AdventCalendarOfCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day09.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Day11">
     <configuration default="false" name="Unittest Day10UnitTests.test_transforms_strings_properly" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,6 +270,23 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventCalendarOfCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -412,19 +412,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Day09" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day10UnitTests.test_transforms_strings_properly" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Day10" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidWorksProperly" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day10UnitTests.test_transforms_strings_properly" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day10" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidWorksProperly" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Day11" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidWorksProperly" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Day10" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day10UnitTests.test_transforms_strings_properly" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Day09" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Day11" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day11UnitTests.test_IsValidWorksProperly" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Day10" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day10UnitTests.test_transforms_strings_properly" />
       </list>
     </recent_temporary>
   </component>
@@ -442,35 +442,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 06h 21m 55s.xml">
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 04m 18s.xml">
       <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 06h 21m 59s.xml">
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 04m 46s.xml">
       <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 06h 28m 23s.xml">
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 04m 52s.xml">
       <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 06h 29m 04s.xml">
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 05m 25s.xml">
       <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 06h 29m 20s.xml">
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 05m 35s.xml">
       <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidWorksProperly - 2015.12.11 at 06h 16m 20s.xml">
-      <configuration name="Unittest Day11UnitTests.test_IsValidWorksProperly" configurationId="tests" />
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 06m 15s.xml">
+      <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidWorksProperly - 2015.12.11 at 06h 16m 23s.xml">
-      <configuration name="Unittest Day11UnitTests.test_IsValidWorksProperly" configurationId="tests" />
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 06m 26s.xml">
+      <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidWorksProperly - 2015.12.11 at 06h 17m 30s.xml">
-      <configuration name="Unittest Day11UnitTests.test_IsValidWorksProperly" configurationId="tests" />
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 10m 52s.xml">
+      <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidWorksProperly - 2015.12.11 at 06h 17m 32s.xml">
-      <configuration name="Unittest Day11UnitTests.test_IsValidWorksProperly" configurationId="tests" />
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 12m 05s.xml">
+      <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day11UnitTests_test_IsValidWorksProperly - 2015.12.11 at 06h 21m 18s.xml">
-      <configuration name="Unittest Day11UnitTests.test_IsValidWorksProperly" configurationId="tests" />
+    <history-entry file="Unittest_Day11UnitTests_test_IsValidFindsBadStringsProperly - 2015.12.11 at 19h 12m 18s.xml">
+      <configuration name="Unittest Day11UnitTests.test_IsValidFindsBadStringsProperly" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -482,7 +482,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994374" sideWeight="0.50578034" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724902" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724902" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -567,11 +567,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Day11.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="80" />
+          <line>20</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="81" />
+      <option name="time" value="85" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -973,7 +973,7 @@
     <entry file="file://$PROJECT_DIR$/Day11-Unittest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -982,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9303279">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3831967">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
