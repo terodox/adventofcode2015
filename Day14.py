@@ -31,17 +31,17 @@ class AdventDayFourteen(AdventDay):
                 if one_reindeer.total_distance == leader_distance:
                     one_reindeer.total_points += 1
 
-        farthest_distance = 0
+        most_points = 0
         for one_reindeer in self.all_reindeer:
-            farthest_distance = max(farthest_distance, one_reindeer.total_distance)
+            most_points = max(most_points, one_reindeer.total_points)
 
-        return farthest_distance
+        return most_points
 
     def calculate_one_reindeer(self, one_reindeer, current_time):
         one_lap = one_reindeer.run_time + one_reindeer.rest_time
         partial_lap_remaining = current_time % one_lap
         currently_running = 1\
-            if one_reindeer.run_time <= partial_lap_remaining\
+            if partial_lap_remaining != 0 and one_reindeer.run_time >= partial_lap_remaining\
             else 0
         if currently_running == 1:
             one_reindeer.total_distance += one_reindeer.speed
