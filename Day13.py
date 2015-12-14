@@ -75,6 +75,7 @@ class Guest:
     def add_guest(self, guest_name, happiness):
         self.guests[guest_name] = happiness
 
-adventDay13 = AdventDayThirteen()
-#print("Day 13 Part 1: {answer}".format(answer=adventDay13.answer_part1()))
-print("Day 13 Part 2: {answer}".format(answer=adventDay13.answer_part2()))
+adventDay13_1 = AdventDayThirteen()
+adventDay13_2 = AdventDayThirteen()
+print("Day 13 Part 1: {answer}".format(answer=adventDay13_1.answer_part1()))
+print("Day 13 Part 2: {answer}".format(answer=adventDay13_2.answer_part2()))
