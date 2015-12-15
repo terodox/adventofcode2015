@@ -5,6 +5,7 @@ import re
 class AdventDayFourteen(AdventDay):
     def __init__(self):
         AdventDay.__init__(self, 14)
+
         self.all_reindeer = []
         self.all_results = []
 
