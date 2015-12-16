@@ -18,7 +18,7 @@ class Day15UnitTests(TestCase):
         self.assertEqual(2, self._sut.all_ingredients[0].texture)
         self.assertEqual(8, self._sut.all_ingredients[0].calories)
 
-    def test_parse_one_ingredient(self):
+    def test_parse_calculate_mix_value(self):
         butterscotch = 'Butterscotch: capacity -1, durability -2, flavor 6, texture 3, calories 8'
         cinnamon = 'Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3'
 

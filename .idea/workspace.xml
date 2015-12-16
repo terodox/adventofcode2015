@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a4acd0-74bf-4766-b941-ee32fca664e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day15-Unittest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day15.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day15.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day14.py" afterPath="$PROJECT_DIR$/Day14.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day15-Unittest.py" afterPath="$PROJECT_DIR$/Day15-Unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day15.py" afterPath="$PROJECT_DIR$/Day15.py" />
     </list>
     <ignored path="AdventCalendarOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Day15.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day15.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4364754">
-              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.7909836">
+              <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Day15-Unittest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -117,8 +114,8 @@
         <option value="$PROJECT_DIR$/Day14-Unittest.py" />
         <option value="$PROJECT_DIR$/Day14.py" />
         <option value="$PROJECT_DIR$/Day15.txt" />
-        <option value="$PROJECT_DIR$/Day15.py" />
         <option value="$PROJECT_DIR$/Day15-Unittest.py" />
+        <option value="$PROJECT_DIR$/Day15.py" />
       </list>
     </option>
   </component>
@@ -180,24 +177,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient (1)">
-    <configuration default="false" name="Day13" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AdventCalendarOfCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day13.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Day15">
     <configuration default="false" name="Unittest Day14UnitTests.test_parse_one_reindeer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +259,23 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventCalendarOfCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -404,19 +401,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Day13" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day14UnitTests.test_parse_one_reindeer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Day14" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day14UnitTests.test_parse_one_reindeer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day14" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Day15" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Day14" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Day14UnitTests.test_parse_one_reindeer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Day13" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Day15" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day15UnitTests.test_parse_one_ingredient" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Day14" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day14UnitTests.test_parse_one_reindeer" />
       </list>
     </recent_temporary>
   </component>
@@ -434,18 +431,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient - 2015.12.15 at 06h 20m 13s.xml">
-      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 06h 40m 19s.xml">
-      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 06h 41m 08s.xml">
-      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 06h 43m 20s.xml">
-      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 06h 46m 26s.xml">
       <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
     </history-entry>
@@ -464,10 +449,22 @@
     <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 06h 49m 03s.xml">
       <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 18h 48m 07s.xml">
+      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 18h 48m 28s.xml">
+      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 18h 48m 51s.xml">
+      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Day15UnitTests_test_parse_one_ingredient_(1) - 2015.12.15 at 18h 49m 23s.xml">
+      <configuration name="Unittest Day15UnitTests.test_parse_one_ingredient (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10694444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -588,7 +585,7 @@
           <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="137" />
+      <option name="time" value="141" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -1016,7 +1013,7 @@
     <entry file="file://$PROJECT_DIR$/Day15-Unittest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -1025,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4364754">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.7909836">
+          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
