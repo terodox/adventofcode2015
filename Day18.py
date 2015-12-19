@@ -1,5 +1,4 @@
 from DataReader import AdventDay
-import itertools
 
 
 class AdventDayEighteen(AdventDay):
