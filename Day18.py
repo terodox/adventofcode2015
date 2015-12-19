@@ -7,10 +7,28 @@ class AdventDayEighteen(AdventDay):
         AdventDay.__init__(self, 18)
 
     def answer_part1(self):
-        print("")
+        lights = self.get_initial_lights()
+        for count in range(0, len(lights)):
+            lights = self.iterate_lights(lights)
+        return self.count_lights(lights)
 
     def answer_part2(self):
-        print("")
+        lights = self.get_initial_lights()
+
+        lights = self.turn_on_corners(lights)
+
+        for count in range(0, len(lights)):
+            lights = self.iterate_lights(lights)
+            lights = self.turn_on_corners(lights)
+        return self.count_lights(lights)
+
+    @staticmethod
+    def turn_on_corners(lights):
+        lights[0][0] = 1
+        lights[0][len(lights[0]) - 1] = 1
+        lights[len(lights) - 1][0] = 1
+        lights[len(lights) - 1][len(lights[0]) - 1] = 1
+        return lights
 
     def iterate_lights(self, lights_in):
         lights_out = [[0 for _ in range(len(lights_in[0]))] for _ in range(len(lights_in))]
@@ -24,15 +42,21 @@ class AdventDayEighteen(AdventDay):
                 else:
                     lights_out[row][column] = 0
 
+        return lights_out
+
 
     @staticmethod
     def get_neighbors_value(lights, row, column):
-        neighbors_value = lights[row][column]
+        neighbors_value = 0
         for vertical in range(-1, 2):
-            if (vertical + row) >= 0:
+            y = vertical + row
+            if len(lights) > y >= 0:
                 for horizontal in range(-1, 2):
-                    if (horizontal + column) >= 0:
-                        neighbors_value += lights[vertical][horizontal]
+                    x = horizontal + column
+                    if len(lights) > x >= 0:
+                        if x == column and y == row:
+                            continue
+                        neighbors_value += lights[y][x]
         return neighbors_value
 
     @staticmethod
@@ -43,6 +67,7 @@ class AdventDayEighteen(AdventDay):
         lights = []
         for one_string in self.read_data():
             column_list = []
+            one_string = one_string[:len(one_string) - 1]
             for char in one_string:
                 if char is '#':
                     column_list.append(1)
