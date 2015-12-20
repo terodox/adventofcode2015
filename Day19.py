@@ -31,32 +31,23 @@ class AdventDayNineteen(AdventDay):
     def answer_part2(self):
         replacements = self.parse_replacements_part2()
         self.tear_down_string(self.input_value, 0, '', replacements)
-        return min(self.answers_part2)
+        return self.answers_part2
 
     def tear_down_string(self, input_value, replacement_count, previous_value, replacements):
         if input_value == 'e':
-            if self.answers_part2 != 0 and replacement_count < self.answers_part2:
+            if self.answers_part2 == 0 or replacement_count < self.answers_part2:
                 self.answers_part2 = replacement_count
             return
         if self.answers_part2 != 0 and replacement_count >= self.answers_part2:
             return
-        if input_value == previous_value:
+        if input_value == previous_value or (previous_value != '' and len(input_value) > len(previous_value)):
             return
 
         for replacement, options in replacements.items():
             for one_option in options:
-                start_point = 0
-                while start_point != -1:
-                    result = self.replace_one_instance(input_value, one_option, replacement, start_point)
-                    if result[0] != -1:
-                        self.tear_down_string(result[1], replacement_count + 1, input_value, replacements)
-                        if result[1] == 'e':
-                            return
-                        start_point = result[0]
-                        if start_point == len(input_value):
-                            start_point = -1
-                    else:
-                        start_point = -1
+                result = self.replace_one_instance(input_value, one_option, replacement, 0)
+                if result[0] != -1:
+                    self.tear_down_string(result[1], replacement_count + 1, input_value, replacements)
         return
 
     def parse_replacements_part2(self):
