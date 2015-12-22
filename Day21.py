@@ -88,6 +88,7 @@ class AdventDayTwentyOne(AdventDay):
 
         return False
 
+
 class Character:
     def __init__(self, hit_points, armor, attack):
         self.hit_points = hit_points
