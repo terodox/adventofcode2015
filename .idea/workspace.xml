@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a4acd0-74bf-4766-b941-ee32fca664e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day22-Unittest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day22.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day23.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day23.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day21.py" afterPath="$PROJECT_DIR$/Day21.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day22-Unittest.py" afterPath="$PROJECT_DIR$/Day22-Unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day22.py" afterPath="$PROJECT_DIR$/Day22.py" />
     </list>
     <ignored path="AdventCalendarOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day22.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day22.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day22.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.9296066">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day22-Unittest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day22-Unittest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day22-Unittest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08811475">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -64,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataReader.py" />
-        <option value="$PROJECT_DIR$/Day05.py" />
         <option value="$PROJECT_DIR$/Day05-Unittest.py" />
         <option value="$PROJECT_DIR$/Day06.txt" />
         <option value="$PROJECT_DIR$/Day06-Unittest.py" />
@@ -113,8 +114,10 @@
         <option value="$PROJECT_DIR$/Day20.py" />
         <option value="$PROJECT_DIR$/Day21-Unittest.py" />
         <option value="$PROJECT_DIR$/Day21.py" />
-        <option value="$PROJECT_DIR$/Day22.py" />
         <option value="$PROJECT_DIR$/Day22-Unittest.py" />
+        <option value="$PROJECT_DIR$/Day23.txt" />
+        <option value="$PROJECT_DIR$/Day23.py" />
+        <option value="$PROJECT_DIR$/Day22.py" />
       </list>
     </option>
   </component>
@@ -176,46 +179,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Day22UnitTests.test_magic_missile">
-    <configuration default="false" name="Day20" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AdventCalendarOfCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day20.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Day20UnitTests.test_count_up" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AdventCalendarOfCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day20-Unittest.py" />
-      <option name="CLASS_NAME" value="Day20UnitTests" />
-      <option name="METHOD_NAME" value="test_count_up" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Day22">
     <configuration default="false" name="Unittest Day21UnitTests.test_do_i_win" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +239,40 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventCalendarOfCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day22.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Day23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventCalendarOfCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day23.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -400,19 +398,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Day20" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Day20UnitTests.test_count_up" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day21UnitTests.test_do_i_win" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Day21" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day22UnitTests.test_magic_missile" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day21UnitTests.test_do_i_win" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day21" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day22UnitTests.test_magic_missile" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Day22" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Day23" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Day22UnitTests.test_magic_missile" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Day21" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day21UnitTests.test_do_i_win" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Day20" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day20UnitTests.test_count_up" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Day22" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Day23" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Day22UnitTests.test_magic_missile" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Day21" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Day21UnitTests.test_do_i_win" />
       </list>
     </recent_temporary>
   </component>
@@ -430,51 +428,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 30m 11s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 05m 47s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 30m 45s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 06m 16s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 31m 04s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 08m 37s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 31m 27s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 08m 56s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 31m 45s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 23m 04s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 37m 31s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 23m 45s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 40m 34s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 24m 08s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 40m 51s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 24m 24s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 41m 07s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 33m 35s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 06h 42m 17s.xml">
+    <history-entry file="Unittest_Day22UnitTests_test_magic_missile - 2015.12.22 at 19h 33m 49s.xml">
       <configuration name="Unittest Day22UnitTests.test_magic_missile" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10694444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724902" sideWeight="0.4298611" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33376792" sideWeight="0.48958334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724902" sideWeight="0.5701389" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33376792" sideWeight="0.5104167" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24902217" sideWeight="0.4888889" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46936116" sideWeight="0.65902776" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,46 +606,33 @@
           <line>33</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Day22.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Day23.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="211" />
+      <option name="time" value="260" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
         <watch expression="len(item_combinations)" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
-        <watch expression="len(item_combinations)" language="Python" />
+        <watch expression="active_spells" language="Python" />
+        <watch expression="me" language="Python" />
+        <watch expression="boss" language="Python" />
+        <watch expression="new_boss" language="Python" />
+        <watch expression="new_me" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day06-Unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4275256">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day06.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02489019">
-          <caret line="5" column="31" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day05-Unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day07.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -992,7 +977,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1015,21 +1000,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day20.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1013,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1058,23 +1033,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day22-Unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1793" column="0" selection-start-line="1793" selection-start-column="0" selection-end-line="1793" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22567287">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day22-Unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08811475">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.9296066">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
